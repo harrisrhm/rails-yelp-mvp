@@ -43,5 +43,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', '4.0.0.beta3', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
-gem 'rspec-rails', '4.0.0.beta3', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
+
+# Adding simple form and faker 
+gem 'simple_form'
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
